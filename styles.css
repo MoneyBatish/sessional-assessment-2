@@ -57,6 +57,9 @@
 #manag{
     color:blue;
 }
+#people{
+    text-align: center;
+}
 @media only screen and (max-width:800px) {
     #home
     {
@@ -75,4 +78,85 @@
     {
         width: 90%;
     }
+}
+.img-per{
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 50%;
+}
+#Pheader
+{
+    align-self: center;
+    font-size: 60px;
+    font-family: Brush Script MT;
+}
+#person
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-cont
+{
+    border: 2px solid grey;
+    width: 380px;
+    height: 700px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+.user
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.address-div{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align:center;
+}
+.line
+{
+    width: 150px;
+    color:grey;
+}
+.geo-div{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align:center;
+}
+.com-div
+{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align:center;
 }
